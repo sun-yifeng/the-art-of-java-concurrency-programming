@@ -8,7 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ch01-concurrency-challenge" />
         <module name="ch02-concurrency-mechanism" />
+        <module name="ch04-concurrency-base" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ch04-concurrency-base" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

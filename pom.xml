@@ -11,6 +11,9 @@
   <modules>
     <module>ch01-concurrency-challenge</module>
     <module>ch02-concurrency-mechanism</module>
+    <module>ch04-concurrency-base</module>
+    <module>ch04-concurrenty-base</module>
+    <module>ch04-concurrency-base</module>
   </modules>
 
   <name>the-art-of-java-concurrency-programming</name>
