@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="ch01-concurrency-challenge" />
+        <module name="ch02-concurrency-mechanism" />
       </profile>
     </annotationProcessing>
   </component>

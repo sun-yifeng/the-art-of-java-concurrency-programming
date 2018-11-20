@@ -9,10 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.sunyf.ch01</groupId>
-    <artifactId>ch01-concurrency-challenge</artifactId>
+    <groupId>com.sunyf.ch02</groupId>
+    <artifactId>ch02-concurrency-mechanism</artifactId>
 
-    <name>ch01-concurrency-challenge</name>
+    <name>ch02-concurrency-mechanism</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
 
