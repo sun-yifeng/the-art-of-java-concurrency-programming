@@ -53,7 +53,7 @@ public class ForkJoinDemo extends RecursiveTask<Integer> {
         //
         ForkJoinPool forkJoinPool = new ForkJoinPool();
         // 计算任务
-        ForkJoinDemo forkJoinDemo = new ForkJoinDemo(1, 4);
+        ForkJoinDemo forkJoinDemo = new ForkJoinDemo(1, 10);
         // 提交任务
         Future<Integer> result = forkJoinPool.submit(forkJoinDemo);
         //
