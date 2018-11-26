@@ -1,7 +1,5 @@
 package com.sunyf.ch04;
 
-import java.util.concurrent.TimeUnit;
-
 /**
  * @program: the-art-of-java-concurrency-programming
  * @description: 线程状态
@@ -61,16 +59,6 @@ public class ThreadState {
                 while (true) {
                     SleepUtils.second(100l);
                 }
-            }
-        }
-    }
-
-    static class SleepUtils {
-        public static final void second(long seconds) {
-            try {
-                TimeUnit.SECONDS.sleep(seconds);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
             }
         }
     }

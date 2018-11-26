@@ -9,6 +9,7 @@
         <module name="ch01-concurrency-challenge" />
         <module name="ch02-concurrency-mechanism" />
         <module name="ch04-concurrency-base" />
+        <module name="ch06-concurrent-container-framework" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
