@@ -10,6 +10,7 @@
         <module name="ch02-concurrency-mechanism" />
         <module name="ch04-concurrency-base" />
         <module name="ch06-concurrent-container-framework" />
+        <module name="ch08-concurrent-tool" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

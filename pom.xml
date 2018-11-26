@@ -15,6 +15,7 @@
     <module>ch04-concurrenty-base</module>
     <module>ch04-concurrency-base</module>
       <module>ch06-concurrent-container-framework</module>
+      <module>ch08-concurrent-tool</module>
   </modules>
 
   <name>the-art-of-java-concurrency-programming</name>
