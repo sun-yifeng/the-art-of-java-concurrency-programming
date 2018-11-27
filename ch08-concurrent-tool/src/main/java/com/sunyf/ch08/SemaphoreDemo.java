@@ -19,12 +19,13 @@ public class SemaphoreDemo {
     private static Semaphore s = new Semaphore(10); // 控制在10个线程
 
     public static void main(String[] args) {
-        for (int i = 0; i < THREAD_COUNT; i++) { // 外层：30个线程
+        // TODO 外层：30个线程
+        for (int i = 0; i < THREAD_COUNT; i++) {
             threadPool.execute(new Runnable() {
                 @Override
                 public void run() {
                     try {
-                        // 内层控制在10个线程
+                        // TODO 内层:控制在10个线程
                         s.acquire(); // 获取
                         System.out.println("save data");
                         s.release(); // 释放
